@@ -1,0 +1,41 @@
+.images {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.images img {
+  height: auto;
+  width: 50%;
+  /* background-color: red; */
+}
+
+.containerBody {
+  margin-top: 70px;
+  /* background-color: red; */
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.CardBody {
+  min-height: 500px;
+  text-align: center;
+  margin: 20px 0px;
+}
+.ImageBody {
+  height: 130px;
+  width: auto;
+  margin: 30px auto;
+}
+.Title {
+  /* background-color: red; */
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+}
